@@ -1,12 +1,4 @@
 #!usr/bin/env sh
-###
- # @Author: liuli
- # @Date: 2022-03-23 18:43:15
- # @LastEditTime: 2022-03-23 18:48:44
- # @LastEditors: Please set LastEditors
- # @Description: 
- # @FilePath: /shirleypress/deploy.sh
-### 
 
 # 确保脚本抛出遇到的错误
 set -e

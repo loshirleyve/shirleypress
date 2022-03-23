@@ -13,5 +13,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.SHIRLEY_PRESS_AUTO_DEPLOY }}
         TARGET_REPO: loshirleyve/shirleypress
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn build
+        BUILD_SCRIPT: yarn && yarn docs:build  
         BUILD_DIR: docs/.vuepress/dist
