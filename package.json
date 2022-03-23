@@ -1,0 +1,15 @@
+{
+  "name": "shirleypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:loshirleyve/shirleypress.git",
+  "author": "shirley <1242663098@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
